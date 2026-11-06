@@ -2,7 +2,7 @@
 
 [日本語版](README_ja.md)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/mnist-cnn-gradcampp-colab/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/cnn_grad-cam_mnist/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
 
 A **student-friendly Google Colab notebook** for training a small convolutional neural network on MNIST and visualizing class-related regions using Grad-CAM++ with mathematically exact second- and third-order derivatives for this ReLU-based classifier.
 
@@ -14,7 +14,7 @@ A **student-friendly Google Colab notebook** for training a small convolutional 
 
 ## Run in Colab
 
-1. Click **Open in Colab** after the repository is published and select a Python runtime (GPU recommended for faster training).
+1. Click **Open in Colab** and select a Python runtime (GPU recommended for faster training).
 2. Run sections 1–6 in order; no Drive mounting or dataset upload is required.
 3. Change the number of convolutional filters and epochs, then retrain before viewing updated explanations.
 4. Section 4 downloads a fixed revision of [Num_sorce_mnist](https://github.com/TakaNori999/Num_sorce_mnist) (`num_src`, 30 handwritten-digit PNGs). Section 6 visualizes the selected image(s).
