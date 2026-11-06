@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/mnist-cnn-gradcampp-colab/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/cnn_grad-cam_mnist/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
 
 ## 教材の概要
 
@@ -10,7 +10,7 @@ MNISTの手書き数字を使ってCNNを学習し、**未知の数字画像に�
 
 ## 実行方法
 
-1. GitHub公開後、上の **Open in Colab** からノートブックを開きます。GPUランタイムを推奨します。
+1. 上の **Open in Colab** からノートブックを開きます。GPUランタイムを推奨します。
 2. **第2節**でフィルタ数、**第3節**でエポック数を設定して、セルを上から順に実行します。
 3. **第4節**で外部の数字画像30枚をGitHubから取得し、一覧と正解率を表示します。
 4. **第6節**の `INDEXES = [0]` を、例えば `[0, 7, 15]` に変更すると、選択画像の予測とGrad-CAM++を表示します。
