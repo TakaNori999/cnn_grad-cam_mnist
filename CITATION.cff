@@ -6,6 +6,7 @@ authors:
   - family-names: "Takahashi"
     given-names: "Norihiro"
 version: "1.0.0"
+doi: "10.5281/zenodo.23992469"
 license: MIT
 repository-code: "https://github.com/TakaNori999/cnn_grad-cam_mnist"
 url: "https://github.com/TakaNori999/cnn_grad-cam_mnist"
