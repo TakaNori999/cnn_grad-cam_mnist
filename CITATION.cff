@@ -7,8 +7,8 @@ authors:
     given-names: "Norihiro"
 version: "1.0.0"
 license: MIT
-repository-code: "https://github.com/TakaNori999/mnist-cnn-gradcampp-colab"
-url: "https://github.com/TakaNori999/mnist-cnn-gradcampp-colab"
+repository-code: "https://github.com/TakaNori999/cnn_grad-cam_mnist"
+url: "https://github.com/TakaNori999/cnn_grad-cam_mnist"
 abstract: >-
   A student-oriented Google Colab notebook for exploring CNN layers and
   epochs with MNIST, and visualizing external handwritten-digit images
