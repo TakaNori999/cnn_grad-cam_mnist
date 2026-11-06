@@ -3,6 +3,7 @@
 [English README](README.md)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/cnn_grad-cam_mnist/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23992469.svg)](https://doi.org/10.5281/zenodo.23992469)
 
 ## 教材の概要
 
@@ -43,6 +44,6 @@ Chattopadhyay et al. (2018), *Grad-CAM++*, WACV. https://doi.org/10.1109/WACV.20
 
 ## 引用とDOI
 
-`CITATION.cff` に引用情報を記載しています。GitHubリリースをZenodoに保存した後、**実際に発行されたDOI**をREADMEと引用情報に追記します。現時点でDOIは未取得です。
+GitHub Release **v1.0.0** をZenodoで公開し、DOI **[10.5281/zenodo.23992469](https://doi.org/10.5281/zenodo.23992469)** が発行されました。引用する際は、このDOIまたは [CITATION.cff](CITATION.cff) の情報をご利用ください。Zenodoに保存されたv1.0.0は公開時点のスナップショットであり、その後のGitHub上のREADME等の更新は既存のアーカイブには反映されません。
 
 詳しい手順： [GitHub公開とZenodoによるDOI取得ガイド](ZENODO_RELEASE_GUIDE_ja.md)
