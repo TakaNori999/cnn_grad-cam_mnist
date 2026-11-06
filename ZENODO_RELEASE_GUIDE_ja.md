@@ -1,24 +1,24 @@
 # GitHub公開とZenodoでのDOI取得（日本語）
 
-対象予定リポジトリ： `https://github.com/TakaNori999/mnist-cnn-gradcampp-colab`
+対象リポジトリ： `https://github.com/TakaNori999/cnn_grad-cam_mnist`
 
 ## 第1段階：公開前の確認
 
-- [ ] 修正版ノートブックをColabで上から実行し、MNISTの学習、外部画像30枚の取得、Grad-CAM++の表示を確認する。
+- [x] 修正版ノートブックをColabで上から実行し、MNISTの学習、外部画像30枚の取得、Grad-CAM++の表示を確認する（利用者による動作確認）。
 - [x] [外部画像の既存リポジトリ](https://github.com/TakaNori999/Num_sorce_mnist) の30枚は著者本人が制作したオリジナル画像（著者による申告）。元リポジトリに利用許諾の記載はまだないため、画像の第三者による再利用を認める場合は別途明記する。
 - [ ] 著者氏名・所属する権利者・共著者の扱いを確認する（仮設定：Norihiro Takahashi）。ORCIDがあれば `CITATION.cff` に追記する。
 - [ ] `.ipynb` に実行画像・個人情報・機密情報が埋め込まれていないことを確認する。
 
-## 第2段階：GitHubで新しいPublicリポジトリを作る
+## 第2段階：GitHub公開ファイルを確認する
 
-1. [新しいリポジトリ](https://github.com/new) を開き、Owner `TakaNori999`、名前 `mnist-cnn-gradcampp-colab`、公開範囲 `Public` を指定する。READMEやLICENSEの自動作成はOFF。
-2. この配布ZIPを展開し、`.ipynb`、README、LICENSE、CITATION.cff、requirements.txt、.gitignore、ガイドをアップロードする。過去の非公開ファイルを混在させない。
-3. **Open in Colab** のリンク `https://colab.research.google.com/github/TakaNori999/mnist-cnn-gradcampp-colab/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb` でNotebookが開き、実行できることを確認する。
+1. リポジトリ `TakaNori999/cnn_grad-cam_mnist` はすでにPublicで公開済みです。今後の更新時も、データ・画像・実行出力を含めないでください。
+2. `.ipynb`、README、LICENSE、CITATION.cff、requirements.txt、`.gitignore`、ガイドがリポジトリ直下にあることを確認してください。
+3. **Open in Colab** のリンク `https://colab.research.google.com/github/TakaNori999/cnn_grad-cam_mnist/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb` でNotebookが開き、実行できることを確認する。
 
 ## 第3段階：Zenodoと連携（GitHub Releaseより前）
 
 1. [Zenodo](https://zenodo.org/) にログイン（必要ならアカウント作成）。
-2. GitHubアカウントを連携する。Zenodoのプロフィールメニュー → GitHub → Sync now → リポジトリ `mnist-cnn-gradcampp-colab` を探し、連携スイッチをONにする。
+2. GitHubアカウントを連携する。Zenodoのプロフィールメニュー → GitHub → Sync now → リポジトリ `cnn_grad-cam_mnist` を探し、連携スイッチをONにする。
 3. 必要な著者・タイトル・ライセンスが Zenodo側に適切に登録されるよう `CITATION.cff` を確認する。
 4. GitHubで **Releases → Draft a new release** を開き、タグ `v1.0.0`、タイトル `MNIST CNN & Grad-CAM++ v1.0.0` を指定して公開する。
 5. Zenodoでアーカイブの完了・DOIの発行を確認する。GitHub Releaseは自動でZenodoに取り込まれる設定です。
