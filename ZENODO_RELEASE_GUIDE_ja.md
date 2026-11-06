@@ -1,5 +1,15 @@
 # GitHub公開とZenodoでのDOI取得（日本語）
 
+## 発行状況（2026年11月6日時点）
+
+- GitHub: [TakaNori999/cnn_grad-cam_mnist](https://github.com/TakaNori999/cnn_grad-cam_mnist)
+- Release: [v1.0.0](https://github.com/TakaNori999/cnn_grad-cam_mnist/releases/tag/v1.0.0)
+- Zenodo: **公開済み（Published）**
+- DOI: **[10.5281/zenodo.23992469](https://doi.org/10.5281/zenodo.23992469)**
+
+以下の手順は、今後新しいバージョンを公開する際にも参照できる記録です。初回Releaseの作成・DOI取得は完了しています。
+
+
 対象リポジトリ： `https://github.com/TakaNori999/cnn_grad-cam_mnist`
 
 ## 第1段階：公開前の確認
@@ -27,7 +37,7 @@ Zenodo公式：[Enable a repository](https://help.zenodo.org/docs/github/enable-
 
 ## 第4段階：DOI反映
 
-- Zenodoで発行された**特定バージョンのDOI**をREADMEに追記し、`CITATION.cff` に `doi: "10.5281/zenodo.実際の番号"` を記載する（番号を推測・捏造しない）。
+- v1.0.0 のDOI **10.5281/zenodo.23992469** はREADMEと `CITATION.cff` に反映済みです。
 - Zenodoに保存されたv1.0.0の内容は公開時点のスナップショットです。DOI追記後のGitHubの変更は、既存のZenodoアーカイブには自動で反映されないので注意してください。
 - 将来v1.1.0をリリースする際は、それに対応する新しいバージョンDOIを記録します。
 
