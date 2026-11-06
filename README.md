@@ -3,6 +3,7 @@
 [日本語版](README_ja.md)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TakaNori999/cnn_grad-cam_mnist/blob/main/MNIST_CNN_GradCAMpp_Colab.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23992469.svg)](https://doi.org/10.5281/zenodo.23992469)
 
 A **student-friendly Google Colab notebook** for training a small convolutional neural network on MNIST and visualizing class-related regions using Grad-CAM++ with mathematically exact second- and third-order derivatives for this ReLU-based classifier.
 
@@ -50,6 +51,6 @@ Chattopadhyay, A., Sarkar, A., Howlader, P., & Balasubramanian, V. N. (2018). *G
 
 ## Citation and archival
 
-The software's citation metadata is in [CITATION.cff](CITATION.cff). After your **first GitHub Release is archived by Zenodo**, add the real version DOI to the citation file and README; do not insert a placeholder DOI into the archive. The exact release DOI should be used when citing a specific version.
+Version **v1.0.0** has been published and archived on Zenodo. The assigned DOI is [10.5281/zenodo.23992469](https://doi.org/10.5281/zenodo.23992469). To cite this software, refer to [CITATION.cff](CITATION.cff), the DOI, or the GitHub **Cite this repository** feature. The Zenodo archive is a snapshot of the released version; subsequent changes to this README on GitHub do not modify the existing archive.
 
 [Japanese GitHub + Zenodo release guide](ZENODO_RELEASE_GUIDE_ja.md)
