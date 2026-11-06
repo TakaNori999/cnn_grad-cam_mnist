@@ -1,0 +1,6 @@
+# Google Colab includes TensorFlow, NumPy, Matplotlib, and Pillow.
+# This file lists imported Python packages; exact runtime versions may differ.
+tensorflow
+numpy
+matplotlib
+Pillow

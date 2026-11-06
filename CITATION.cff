@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite this repository."
+type: software
+title: "MNIST CNN Learning and Grad-CAM++ Visualization in Google Colab"
+authors:
+  - family-names: "Takahashi"
+    given-names: "Norihiro"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/TakaNori999/mnist-cnn-gradcampp-colab"
+url: "https://github.com/TakaNori999/mnist-cnn-gradcampp-colab"
+abstract: >-
+  A student-oriented Google Colab notebook for exploring CNN layers and
+  epochs with MNIST, and visualizing external handwritten-digit images
+  using Grad-CAM++ with analytic second- and third-order derivatives of the exponential class score for a piecewise-linear classifier.
+keywords:
+  - explainable artificial intelligence
+  - Grad-CAM++
+  - CNN
+  - MNIST
+  - technology education

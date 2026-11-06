@@ -1,0 +1,16 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+
+# Data/model/results are downloaded or generated at runtime, not distributed.
+num_src/
+Num_sorce_mnist/
+*.keras
+*.h5
+*.npz
+*.npy
